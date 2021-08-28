@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.cashwithdrawalapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+.cashwithdrawalcon {
+  background-color: #150b3e;
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .cashwithdrawalcon {
+    width: 40%;
+  }
+}
+
+.usernamecon {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .usernamecon {
+    flex-direction: column;
+  }
+  .balancecon {
+    flex-direction: column;
+  }
+}
+.userlogo {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  align-items: center;
+  display: flex;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.username {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.balancecon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.balanceheading {
+  color: #585076;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-right: 20px;
+}
+
+.currentmoneycon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.currentmoney {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.currency {
+  color: #585076;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.unorderdenominations {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}

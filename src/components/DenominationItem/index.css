@@ -1,0 +1,17 @@
+/* Write your CSS here */
+
+.button {
+  background-color: #382f5a;
+  color: #d4d2db;
+  border-radius: 15px;
+  border: 1px #d4d2db solid;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+}
+.listis {
+  list-style-type: none;
+  width: 45%;
+  margin: 5px;
+}
